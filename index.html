@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geuss Game</title>
+    <link rel="stylesheet" href="guess.css">
+</head>
+<body>
+   <form>
+    <p>Geuss a number between 1 and 100</p>
+    <input type="text" class="userInput" id="userId">
+    <input type="submit"  id="subt" value="Submit Guess">
+   </form>
+   <div class="result">
+    <p>Geussed Number: <span class="GeussedNum"></span></p>
+    <p>Remaining Geuss: <span class="Remaining">10</span></p>
+    <p class="lowOrHi"></p>
+   </div>
+    <script src="guess.js"></script>
+</body>
+</html>

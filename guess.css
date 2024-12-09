@@ -1,0 +1,85 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Form styling */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+form p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+/* Input field styling */
+.guessNum input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Button styling */
+.button button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button button:hover {
+    background-color: #45a049;
+}
+
+/* Results section styling */
+div {
+    text-align: left;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+div p {
+    font-size: 16px;
+    margin: 10px 0 5px;
+}
+
+.guessedNum, .RemainingNum {
+    font-weight: bold;
+    font-size: 18px;
+    color: #007BFF;
+}
+
+/* Result message styling */
+.Result {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #FF5733;
+    font-weight: bold;
+    text-align: center;
+}
